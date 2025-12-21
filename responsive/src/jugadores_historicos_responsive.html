@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugadores históricos de LaLiga</title>
+
+    <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+          color: #333;
+          background-color: #f4f4f4;
+        }
+
+        header {
+          background-color: #004d99;
+          color: white;
+          padding: 20px;
+          text-align: center;
+        }
+
+        nav {
+          background: #333;
+          position: sticky;
+          top: 0;
+          z-index: 1000;
+        }
+
+        nav ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+          padding: 15px 20px;
+          display: block;
+        }
+
+        nav ul li a:hover {
+          background: #555;
+        }
+
+        section {
+          max-width: 1000px;
+          margin: 20px auto;
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 5px;
+          display: block;
+          margin: 10px 0;
+        }
+
+        .table-container {
+          width: 100%;
+          overflow-x: auto;
+          margin: 20px 0;
+        }
+
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          min-width: 400px;
+        }
+
+        table, th, td {
+          border: 1px solid #ddd;
+        }
+
+        th, td {
+          padding: 12px;
+          text-align: left;
+        }
+
+        th {
+          background-color: #f2f2f2;
+        }
+
+        iframe {
+          width: 100%;
+          max-width: 560px;
+          aspect-ratio: 16 / 9;
+          border: none;
+        }
+
+        form label {
+          display: block;
+          margin-top: 10px;
+          font-weight: bold;
+        }
+
+        form input, form textarea {
+          width: 100%;
+          padding: 10px;
+          margin-top: 5px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+
+        button {
+          background: #004d99;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+          margin-top: 15px;
+          border-radius: 4px;
+          width: 100%;
+        }
+
+        @media (max-width: 600px) {
+          nav ul {
+            flex-direction: column;
+          }
+          nav ul li {
+            text-align: center;
+            border-bottom: 1px solid #444;
+          }
+          section {
+            margin: 10px;
+            padding: 15px;
+          }
+          header h1 {
+            font-size: 1.5rem;
+          }
+        }
+    </style>
+</head>
+<body id="top">
+
+<header>
+    <h1>Jugadores históricos de LaLiga</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#christantus">Uche</a></li>
+        <li><a href="#damian">Damián Suárez</a></li>
+        <li><a href="#nyom">Allan Nyom</a></li>
+        <li><a href="#milla">Luis Milla</a></li>
+        <li><a href="#pepe">Pepe</a></li>
+        <li><a href="#magico">Mágico González</a></li>
+    </ul>
+</nav>
+
+<section id="christantus">
+    <h2>Christantus Uche</h2>
+    <img src="https://i0.wp.com/www.ceutadeportiva.com/wp-content/uploads/2024/08/uche16.jpg?ssl=1" alt="Christantus Uche">
+    <p>Mediocampista ofensivo / Delantero del Getafe. <em>Promesa emergente</em> y considerado <mark>uno de los talentos más interesantes de LaLiga</mark>.</p>
+
+    <div class="table-container">
+        <table>
+            <caption>Trayectoria profesional</caption>
+            <tr><th>Club</th><th colspan="2">Período</th></tr>
+            <tr><td>Moralo B</td><td colspan="2">2022–2023</td></tr>
+            <tr><td>Moralo</td><td colspan="2">2023</td></tr>
+            <tr><td>AD Ceuta</td><td>2023–2024</td><td>Tercera Federación</td></tr>
+            <tr><td>Getafe CF</td><td>2024–2025</td><td>38 partidos, 4 goles, 7 asistencias</td></tr>
+        </table>
+    </div>
+</section>
+
+<section id="damian">
+    <h2>Damián Suárez</h2>
+    <img src="https://assets.laliga.com/squad/2023/t176/p54188/2048x2225/p54188_t176_2023_1_001_000.png" alt="Damián Suárez">
+    <p>Lateral derecho uruguayo, conocido por su estilo defensivo duro.</p>
+    <div class="table-container">
+        <table>
+            <caption>Datos en Getafe</caption>
+            <tr><th>Atributo</th><th>Dato</th></tr>
+            <tr><td>Partidos</td><td>+237</td></tr>
+            <tr><td>Goles</td><td>3</td></tr>
+            <tr><td>Asistencias</td><td>17</td></tr>
+        </table>
+    </div>
+    <iframe src="https://www.youtube.com/embed/VmjvtPB_Ctw?start=39" title="Damián Suárez" allowfullscreen></iframe>
+</section>
+
+<section id="nyom">
+    <h2>Allan Nyom</h2>
+    <img src="https://assets.laliga.com/squad/2025/t1450/p67527/2048x2225/p67527_t1450_2025_1_001_000.png" alt="Allan Nyom">
+    <p>Defensa camerunés/francés con más de 200 partidos en LaLiga.</p>
+    <div class="table-container">
+        <table>
+            <tr><th>Atributo</th><th>Dato</th></tr>
+            <tr><td>Altura</td><td>188 cm</td></tr>
+            <tr><td>Partidos en LaLiga</td><td>Más de 228</td></tr>
+        </table>
+    </div>
+</section>
+
+<section id="milla">
+    <h2>Luis Milla</h2>
+    <img src="https://statics-maker.llt-services.com/get/images/2025/05/27/small-wp/15f8da25-0aa3-4ca5-a060-e6ccd85d40fd-568.webp" alt="Luis Milla">
+    <p>Luis Milla Manzanares destaca por su inteligencia táctica en el Getafe CF.</p>
+    <div class="table-container">
+        <table>
+            <tr><th>Atributo</th><th>Información</th></tr>
+            <tr><td>Posición</td><td>Centrocampista</td></tr>
+            <tr><td>Altura</td><td>175 cm</td></tr>
+            <tr><td>Contrato</td><td>Hasta 2027</td></tr>
+        </table>
+    </div>
+</section>
+
+<section id="pepe">
+    <h2>Pepe</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3oPV9BqHAtHiBz77A8AO8OT50-cmsc0jV6g&s" alt="Pepe">
+    <p>Defensa central portugués, ícono del Real Madrid.</p>
+    <iframe src="https://www.youtube.com/embed/ARVQrBlYqXQ" title="Pepe" allowfullscreen></iframe>
+</section>
+
+<section id="magico">
+    <h2>Mágico González</h2>
+    <img src="https://objetos-xlk.estaticos-marca.com/uploads/2023/11/21/15956289936713.jpeg" alt="Mágico González">
+    <p>Leyenda del Cádiz CF.</p>
+    <div class="table-container">
+        <table>
+            <tr><th>Club</th><th>Años</th></tr>
+            <tr><td>Cádiz</td><td>1982–1984</td></tr>
+        </table>
+    </div>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+    <form>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+        <label>Correo:</label>
+        <input type="email" name="correo" required>
+        <label>Comentario:</label>
+        <textarea name="comentario" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer style="text-align: center; padding: 20px;">
+    <p><a href="#top">Volver arriba</a> | <a href="https://www.laliga.com" target="_blank">LaLiga</a></p>
+</footer>
+
+</body>
+</html>
