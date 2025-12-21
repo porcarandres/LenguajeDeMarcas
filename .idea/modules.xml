@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LenguajeDeMarcas.iml" filepath="$PROJECT_DIR$/.idea/LenguajeDeMarcas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html_css/html_css.iml" filepath="$PROJECT_DIR$/html_css/html_css.iml" />
       <module fileurl="file://$PROJECT_DIR$/responsive/responsive.iml" filepath="$PROJECT_DIR$/responsive/responsive.iml" />
     </modules>
   </component>
